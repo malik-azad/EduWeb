@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+html {
+	scroll-behavior: smooth;
+}
+body {
+	background: url(../images/extra/b1.jpg);
+	background-size: cover;
+	font-family: 'Open Sans', sans-serif;
+}
+
+/*Styling SCROLLBAR*/
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background: #FA4B37;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #DF2771; 
+}
+
+/*NAVIGATION BAR*/
+.nav
+{
+	width: 100%;
+	background-color: #fff;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 2%;
+	position: fixed;
+	top: 0px;
+	z-index: 10;
+	box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+}
+}}
